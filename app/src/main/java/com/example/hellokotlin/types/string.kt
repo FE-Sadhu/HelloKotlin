@@ -30,7 +30,7 @@ fun testStrOperator() {
 //    val str3 = 1 + str;  // + 号拼接时必须保证表达式中第一个元素是字符串
 }
 
-// 字面量
+// 三、字面量
 fun testLiterals() {
     // 多行字符串
     val text = """
