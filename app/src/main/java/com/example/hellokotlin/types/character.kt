@@ -1,6 +1,6 @@
 package com.example.hellokotlin.types
 
-// 字符用单引号表示
+// 字符用单引号表示，类型是 Char
 // 只能存储单个字符，UTF-16 编码，通常占用 2 字节
 // 可以直接使用 == 操作符来比较两个字符是否相等
 
