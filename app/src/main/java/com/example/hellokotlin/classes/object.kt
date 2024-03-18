@@ -54,7 +54,7 @@ class C {
 
     fun bar() {
         val x1 = foo().x        // 没问题
-        val x2 = publicFoo().x  // 错误：未能解析的引用“x”
+//        val x2 = publicFoo().x  // 错误：未能解析的引用“x”
     }
 }
 
@@ -76,15 +76,15 @@ class Site1 {
     object DeskTop{
         var url = "www.runoob.com"
         fun showName(){
-            print{"desk legs $name"} // 错误，不能访问到外部类的方法和变量 （但是用对象表达式声明的就能访问到！）
+//            print{"desk legs $name"} // 错误，不能访问到外部类的方法和变量 （但是用对象表达式声明的就能访问到！）
         }
     }
 }
 
 fun testSite1(args: Array<String>) {
     var site = Site1()
-    site.DeskTop.url // 错误，不能通过外部类的实例访问到该对象
-    Site.DeskTop.url // 正确
+//    site.DeskTop.url // 错误，不能通过外部类的实例访问到该对象
+//    Site.DeskTop.url // 正确
 }
 
 
